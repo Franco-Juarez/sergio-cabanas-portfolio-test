@@ -1,8 +1,7 @@
 import { VStack, Image, Heading, Flex, Text, Box } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import portfolioImage  from "../images/sergio-cabanas/linkedin-picture.png" 
-import rocketImg from "../images/sergio-cabanas/hero-svg/rocket.svg"
-import planetBImg from "../images/sergio-cabanas/hero-svg/planet-2.svg"
+import portfolioImage  from "../images/sergio-cabanas/linkedin-picture.png";
+import planetBImg from "../images/sergio-cabanas/hero-svg/planet-2.svg";
 
 
 
@@ -20,34 +19,25 @@ const HeroSection = () => {
         alignItems={"center"} 
         justifyContent={"center"}
         w={{base: "100%", md: "75%"}} >
-        <Box w={"50%"}
+        <Box display={"flex"} flexDirection={"column"} alignItems={"flex-end"} w={"50%"}
         position={"relative"}>
           <Image
             m={0}
             as={motion.img}
             animate={{opacity: 1}}
             borderRadius="full" 
-            w={"90%"} 
+            w={"75%"} 
             src={ portfolioImage } 
             alt='Sergio Cabañas portrait' />
-          <Image 
-            display={{base: "none", md: "inline-block"}}
-            w={"35%"}
-            transform= {"rotate(265deg)"}
-            src={ rocketImg } 
-            alt='Sergio Cabañas portrait'
-            position={"absolute"}
-            zIndex={"1"}
-            bottom={"6%"}
-            left={"-12%"}/>
         </Box>
         <Box 
           display={"flex"}
-          alignItems={"center"} 
+          alignItems={"flex-start"} 
           flexDirection={"column"}
           justifyContent={"center"}
-          w={"50%"}>
-            <Box maxW={"330px"}>
+          w={"50%"}
+          >
+            <Box pl={"5%"}>
             <Image 
               w={{base: "20%", md:"25%"}} 
               src={ planetBImg } 
