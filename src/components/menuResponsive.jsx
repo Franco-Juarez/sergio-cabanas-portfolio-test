@@ -40,21 +40,29 @@ const MenuResponsive = () => {
               color={"white"}
               />
               <MenuList zIndex={100}>
-                  <a className="menuLinks" href="#about">
+                <div className="menuLinks">
+                  <a href="#about">
                     ABOUT ME
                   </a>
+                </div>
                 <Divider/>
-                  <a className="menuLinks" href="#workSection">
+                <div className="menuLinks">
+                  <a href="#workSection">
                     MY WORK
                   </a>
+                </div>
                 <Divider/>
-                  <a className="menuLinks" href="#faqs">
+                <div className="menuLinks">
+                  <a href="#faqs">
                     FAQS
                   </a>
+                </div>
                 <Divider/>
-                  <a className="menuLinks" href="#contact">
+                <div className="menuLinks">
+                  <a href="#contact">
                     GET IN TOUCH
                   </a>
+                </div>
               </MenuList>
             </>
             )}
