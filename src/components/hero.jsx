@@ -42,18 +42,20 @@ const HeroSection = () => {
             left={"-12%"}/>
         </Box>
         <Box 
-          position={"relative"} 
-          ml={8} 
-          alignItems={"flex-start"} 
-          flexDirection={"column"} 
+          display={"flex"}
+          alignItems={"center"} 
+          flexDirection={"column"}
+          justifyContent={"center"}
           w={"50%"}>
-          <Image 
-            w={{base: "20%", md:"25%"}} 
-            src={ planetBImg } 
-            alt='Sergio Cabañas portrait'
-            />
-          <Heading as={"h1"} color="font.darkViolet" fontSize={{base: "2xl", sm:"4xl", lg:"6xl"}}>Sergio <br /> Cabanas</Heading>
-          <Text lineHeight={1.3} w={{base: "100%", md:"75%"}} fontSize={{base:"sm", sm:"xl", md:"3xl"}}>SOUND DESIGNER <br />& MUSIC COMPOSER</Text>
+            <Box maxW={"330px"}>
+            <Image 
+              w={{base: "20%", md:"25%"}} 
+              src={ planetBImg } 
+              alt='Sergio Cabañas portrait'
+              />
+            <Heading as={"h1"} color="font.darkViolet" fontSize={{base: "2xl", sm:"4xl", lg:"6xl"}}>Sergio <br /> Cabanas</Heading>
+            <Text lineHeight={1.3} fontSize={{base:"sm", sm:"xl", md:"3xl"}}>SOUND DESIGNER <br />& MUSIC COMPOSER</Text>
+            </Box>
         </Box>
       </Flex>
     </VStack>
