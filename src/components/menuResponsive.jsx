@@ -41,25 +41,25 @@ const MenuResponsive = () => {
               />
               <MenuList zIndex={100}>
                 <MenuItem fontWeight={"bold"}>
-                  <Link href="#about">
+                  <Link as="a" href="#about">
                     ABOUT ME
                   </Link>
                 </MenuItem>
                 <Divider/>
                 <MenuItem fontWeight={"bold"}>
-                  <Link href="#workSection">
+                  <Link as="a" href="#workSection">
                     MY WORK
                   </Link>
                 </MenuItem>
                 <Divider/>
                 <MenuItem fontWeight={"bold"}>
-                  <Link href="#faqs">
+                  <Link as="a" href="#faqs">
                     FAQS
                   </Link>
                 </MenuItem>
                 <Divider/>
                 <MenuItem fontWeight={"bold"}>
-                  <Link href="#contact">
+                  <Link as="a" href="#contact">
                     GET IN TOUCH
                   </Link>
                 </MenuItem>
