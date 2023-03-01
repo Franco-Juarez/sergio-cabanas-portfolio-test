@@ -42,7 +42,7 @@ const Videos = () => {
       >
         {videos.map(video => {
         return (
-          <GridItem key={video.id} rowSpan={2} minH={{base:"100%", sm: "300px", lg:"350px"}} colSpan={1}>
+          <GridItem key={video.id} rowSpan={2} minH={{base:"300px", sm: "320px", lg:"350px"}} colSpan={1}>
             <Box pb={2} h={{base:"75%", sm:"85%"}}>
               <iframe
                 className="opacityVideoEfx"
