@@ -14,7 +14,7 @@ const Faqs = () => {
   return (
     <VStack as={"section"} id='faqs' color={"whiteAlpha.900"} px={4} py={12} bg="background.secondary">
       <Flex flexDirection={"column"} width={{sm:"100%", md:"75%"}}>
-        <Heading color="font.lightViolet" pb={2} w={"100%"} textAlign={"center"} fontSize={{sm:"xl", md:"6xl"}}>FAQ´s</Heading>
+        <Heading color="font.lightViolet" pb={2} w={"100%"} textAlign={{base: "center", md:"left"}} fontSize={{sm:"xl", md:"6xl"}}>FAQ´s</Heading>
         <Accordion borderColor={"font.darkViolet"} w={"100%"} allowMultiple >
           <AccordionItem>
             <h2>
