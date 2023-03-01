@@ -49,6 +49,11 @@ html {
   animation: opacityEfx 1.5s;
 }
 
+.menuLinks {
+  margin: .5rem;
+  font-weight: 700;
+}
+
 
 /*============================ KEYFRAMES ============================ */
 

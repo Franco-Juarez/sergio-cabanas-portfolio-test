@@ -14,11 +14,11 @@ const Faqs = () => {
   return (
     <VStack as={"section"} id='faqs' color={"whiteAlpha.900"} px={4} py={12} bg="background.secondary">
       <Flex flexDirection={"column"} width={{sm:"100%", md:"75%"}}>
-        <Heading color="font.lightViolet" pb={2} w={"100%"} textAlign={"left"} fontSize={{sm:"xl", md:"6xl"}}>FAQ´s</Heading>
+        <Heading color="font.lightViolet" pb={2} w={"100%"} textAlign={"center"} fontSize={{sm:"xl", md:"6xl"}}>FAQ´s</Heading>
         <Accordion borderColor={"font.darkViolet"} w={"100%"} allowMultiple >
           <AccordionItem>
             <h2>
-              <AccordionButton pl={0} _expanded={{bg:"font.darkViolet"}}>
+              <AccordionButton _expanded={{bg:"font.darkViolet"}}>
                 <Box fontWeight={"bold"} fontSize={{sm:"md", md:"xl"}} as="span" flex='1' textAlign='left'>
                 Why should I need custom made sound and music for my video game project?
                 </Box>
@@ -32,7 +32,7 @@ const Faqs = () => {
           </AccordionItem>
           <AccordionItem>
             <h2>
-              <AccordionButton pl={0} _expanded={{bg:"font.darkViolet"}}>
+              <AccordionButton _expanded={{bg:"font.darkViolet"}}>
                 <Box fontWeight={"bold"} fontSize={{sm:"md", md:"xl"}} as="span" flex='1' textAlign='left'>
                 When should I start developing audio ideas for my project?
                 </Box>
@@ -47,7 +47,7 @@ const Faqs = () => {
           </AccordionItem>
           <AccordionItem>
             <h2>
-              <AccordionButton pl={0} _expanded={{bg:"font.darkViolet"}}>
+              <AccordionButton _expanded={{bg:"font.darkViolet"}}>
                 <Box fontWeight={"bold"} fontSize={{sm:"md", md:"xl"}} as="span" flex='1' textAlign='left'>
                 How do you establish the pricing and what is included in your fee?
                 </Box>
