@@ -8,7 +8,7 @@ import planetBImg from "../images/sergio-cabanas/hero-svg/planet-2.svg";
 const HeroSection = () => {
 
   return (
-    <VStack 
+    <VStack
     as={"section"}
     className="opacityEfx"
     bg="background.main" 
@@ -26,7 +26,7 @@ const HeroSection = () => {
             as={motion.img}
             animate={{opacity: 1}}
             borderRadius="full" 
-            w={"75%"} 
+            w={{base:"100", sm:"60%"}} 
             src={ portfolioImage } 
             alt='Sergio Cabañas portrait' />
         </Box>
@@ -44,7 +44,7 @@ const HeroSection = () => {
               alt='Sergio Cabañas portrait'
               />
             <Heading as={"h1"} color="font.darkViolet" fontSize={{base: "2xl", sm:"4xl", lg:"6xl"}}>Sergio <br /> Cabanas</Heading>
-            <Text lineHeight={1.3} fontSize={{base:"sm", sm:"xl", md:"3xl"}}>SOUND DESIGNER <br />& MUSIC COMPOSER</Text>
+            <Text lineHeight={1.3} fontSize={{base:"sm", sm:"xl", lg:"3xl"}}>SOUND DESIGNER <br />& MUSIC COMPOSER</Text>
             </Box>
         </Box>
       </Flex>

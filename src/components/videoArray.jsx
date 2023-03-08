@@ -55,7 +55,7 @@ export const videoArray = [
   },
   {
     title: "Scene 1 - Music by Ian Rue (Sergio Cabanas) - Film by Daniela Frylinsztein",
-    description: "Short film’s original music Sensitive - Self-knowledge",
+    description: "Short film’s original music. Sensitive - Self-knowledge",
     iframeLink: "https://www.youtube.com/embed/hA8kPwD0TIQ",
     id: 10
   },

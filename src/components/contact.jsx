@@ -18,7 +18,7 @@ const Contact = () => {
         }}
         w={{base: "20%", sm: "25%", md: "30%"}} 
         ml={2} 
-        href="https://youtube.com/@ian_rue" 
+        href="https://instagram.com/ian_rue?igshid=YzgyMTM2MGM=" 
         target={"_blank"}>
         <Image src={instaLogo}></Image>
         </Link>
@@ -38,7 +38,7 @@ const Contact = () => {
         }}
         w={{base: "20%", sm: "25%", md: "30%"}} 
         ml={2} 
-        href="https://instagram.com/ian_rue?igshid=YzgyMTM2MGM=" 
+        href="https://youtube.com/@ian_rue" 
         target={"_blank"}>
           <Image src={youtubeLogo} />
         </Link>

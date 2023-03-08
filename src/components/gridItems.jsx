@@ -5,13 +5,10 @@ import { videoArray } from "../components/videoArray";
 const Videos = () => {
 
   const switchBtn = document.querySelector(".seeMoreBtn");
-  const filterVideoArray = videoArray.filter(video => video.id <= 4)
+  const filterVideoArray = videoArray.filter(video => video.id <= 8)
   
   const loadMore = () => {
     switch (videos.length) {
-      case (4):
-        setVideos(videoArray.filter(video => video.id <= 8))
-        break;
       case (8):
         setVideos(videoArray.filter(video => video.id <= 12))
         break;
@@ -20,7 +17,7 @@ const Videos = () => {
         switchBtn.innerHTML = "SHOW LESS"
         break;
       case (15):
-        setVideos(videoArray.filter(video => video.id <= 4))
+        setVideos(videoArray.filter(video => video.id <= 8))
         switchBtn.innerHTML = "SHOW MORE"
         break;
       default:
@@ -63,7 +60,7 @@ const Videos = () => {
         )
         })}
       </Grid>
-      <Button _active={{textDecoration:"none"}} _hover={{textDecoration:"none"}} className="seeMoreBtn" onClick={loadMore} bg={"none"} color="font.lightViolet" fontWeight={"semibold"} fontSize={{base: "md", sm:"lg", md: "30px"}} my={6} p={0}>SHOW MORE</Button>
+      <Button _active={{textDecoration:"none"}} _hover={{textDecoration:"none"}} className="seeMoreBtn" onClick={loadMore} bg={"none"} color="font.darkViolet" fontWeight={"semibold"} fontSize={{base: "md", sm:"lg", md: "30px"}} my={6} p={0}>SHOW MORE</Button>
     </Flex>
   )
 }
