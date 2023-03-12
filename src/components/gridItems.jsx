@@ -60,7 +60,7 @@ const Videos = () => {
         )
         })}
       </Grid>
-      <Button _active={{textDecoration:"none"}} _hover={{textDecoration:"none"}} className="seeMoreBtn" onClick={loadMore} bg={"none"} color="font.darkViolet" fontWeight={"semibold"} fontSize={{base: "md", sm:"lg", md: "30px"}} my={6} p={0}>SHOW MORE</Button>
+      <Button _active={{textDecoration:"none"}} _hover={{textDecoration:"none"}} className="seeMoreBtn" onClick={loadMore} bg={"none"} color="font.darkViolet" fontWeight={"semibold"} fontSize={{base: "md", sm:"lg", lg:"2xl"}} my={6} p={0}>SHOW MORE</Button>
     </Flex>
   )
 }
